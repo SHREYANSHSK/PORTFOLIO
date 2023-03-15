@@ -1,0 +1,407 @@
+*{
+ margin: 0;
+ padding: 3px;
+ font-family: sans-serif;
+}
+body{
+    background-image: url(images/splash-1763305_1280.png);
+    background-size: 1280px 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+#hero{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: red;
+}
+.logo{
+    height: 6pc;
+    width: 12pc;
+    border-radius: 20pc;
+}
+.detel h1 {
+    font-size: 100px;
+    
+    margin-bottom: 55px;
+    color: rgb(190, 130, 0)
+}
+.detel{
+
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+.detel h2{
+    font-size: 100px;
+    color: #212121;
+    margin-bottom: 55px;
+}
+.detel span{
+    color: orange;
+}
+
+.detel p{
+    color: #555;
+    
+    
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    
+   
+}
+
+.images img{
+    height: 27pc;
+    width: 19pc;
+    position: absolute;
+    left: 50%;
+    bottom: 280px;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+
+.images:hover .boy{
+    left: 40%;
+    transform: scale(1.2);
+
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: transparent;
+    padding-top: 180px;
+
+   
+}
+.about h2 span{
+    color: orange;
+}
+.about img{
+
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 70%;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color:black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+
+}
+
+.about-text p{
+    font-size: large;
+    font-weight: bold;
+    color: #555;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text span{
+color: rgb(5, 92, 92);
+}
+.button{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius:30px ;
+    transition: .4s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .button-two{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius:30px ;
+    transition: .4s;
+}
+
+.contact .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 50px 100px;
+    background:#f5f5f5cf;
+    justify-content: space-between;
+
+} 
+.footer div{
+
+     text-align: center;
+    
+    }
+    
+.footer col-3 p{
+    font-size: 30px;
+}
+    
+.footer div h3{ 
+    font-weight: 300;
+    margin-bottom: 30px; 
+    letter-spacing: 1px;
+    
+    }
+    .col-1 a{
+        display: block; 
+        text-decoration: none;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .col-1 a:hover{
+        color: #f9004d;
+    }
+    form input{ 
+        width: 300px;
+        height: 45px;
+        border-radius: 10pc;
+        text-align: center;
+        margin-top: 20px; 
+        margin-bottom: 40px;
+        outline: none; 
+        border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid black;
+    color:#000000;
+    border-radius:30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    color:red ;
+}
+.social-icons{
+    margin-top: 62px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 10pc;
+}
+.social-icons i:hover{
+    transform: scale(1.3);
+    transition: .3s;
+    border: 2px solid #f9004d;
+    background-color: #f9004d;
+    
+}
+
+
+
+
+
+ @media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }so
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+#skills{
+    
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+    width: 1130px;
+    margin: auto;
+    text-align: center;
+    padding-top: 93px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 489px;
+    width: 335px;
+    padding: 20px 35px;
+    background: whitesmoke;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: coral;
+}
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(165 101 78);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.pra1 p{
+    color: rgb(165 101 78);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+.card .button{
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    float: bottom;
+   
+}
+.card .button:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid coral;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
+   
+}
+#projects{
+
+    width: 100%;
+    padding: 100ox 0px;
+}
+
